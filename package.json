@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "AssetGraph transform for optimizing SystemJS pages for production",
   "main": "lib/systemJsProduction.js",
-  "author": "",
+  "author": "Guy Bedford",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/guybedford/systemjs-assetgraph.git"
+    "url": "http://github.com/gocardless/systemjs-assetgraph.git"
   },
   "dependencies": {
     "graceful-fs": "^3.0.5",
