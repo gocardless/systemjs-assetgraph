@@ -8,7 +8,9 @@ or [injects the depcache if using HTTP/2 for optimization](#http-2-optimization)
 
 ### Installation
 
+```
 npm install assetgraph systemjs-assetgraph
+```
 
 ### Usage
 
