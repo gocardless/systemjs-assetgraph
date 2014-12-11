@@ -1,0 +1,24 @@
+{
+  "name": "systemjs-assetgraph",
+  "version": "0.1.0",
+  "description": "AssetGraph transform for optimizing SystemJS pages for production",
+  "main": "lib/systemJsProduction.js",
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/guybedford/systemjs-assetgraph.git"
+  },
+  "dependencies": {
+    "graceful-fs": "^3.0.5",
+    "mkdirp": "^0.5.0",
+    "rsvp": "^3.0.14",
+    "systemjs-builder": "^0.4.5"
+  },
+  "devDependencies": {
+    "assetgraph": "^1.12.1"
+  },
+  "scripts": {
+    "test": "./test/test.sh"
+  }
+}
