@@ -1,6 +1,6 @@
 {
   "name": "systemjs-assetgraph",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "AssetGraph transform for optimizing SystemJS pages for production",
   "main": "lib/systemJsProduction.js",
   "author": "Guy Bedford",
@@ -12,11 +12,12 @@
   "dependencies": {
     "graceful-fs": "^3.0.5",
     "mkdirp": "^0.5.0",
-    "rsvp": "^3.0.14",
-    "systemjs-builder": "^0.5.3"
+    "rsvp": "^3.0.16",
+    "systemjs-builder": "^0.7.1",
+    "lodash": "^3.0.1"
   },
   "devDependencies": {
-    "assetgraph": "^1.12.1"
+    "assetgraph": "^1.15.4"
   },
   "scripts": {
     "test": "./test/test.sh"

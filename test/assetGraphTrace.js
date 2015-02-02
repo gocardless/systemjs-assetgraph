@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 var AssetGraph = require('assetgraph');
 
 var outRoot = 'test/sample_app_traced';

@@ -37,7 +37,18 @@ new AssetGraph({root: 'app'})
   .loadAssets(['*.html', '*.js'])
   .queue(systemJsAssetGraph({
     outRoot: 'app-built',
-    bundle: true
+    bundle: true,
+    builderConfig: {
+      sourceMaps: true,
+      lowResSourceMaps: true,
+      minify: true,
+      mangle: true,
+      config: {
+        map: {
+          app: 'app-compiled',
+        },
+      }
+  }
   }))
   .writeAssetsToDisc({url: /^file:/}, 'app-built')
   .run(function (err) {
@@ -54,15 +65,17 @@ It will then update the config to reference the bundled file, with full source m
 
 It can be useful to specify configuration overrides that are specifically for the production / build config.
 
-This can be added with the `configOverride` option:
+This can be added with the `builderConfig.config` option:
 
 ```javascript
   .queue(systemJsAssetGraph({
     outRoot: 'app-built',
     bundle: true,
-    configOverride: {
-      map: {
-        'some/module': 'production/module'
+    builderConfig: {
+      config: {
+        map: {
+          'some/module': 'production/module'
+        }
       }
     }
   }))
