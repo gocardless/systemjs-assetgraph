@@ -13,7 +13,7 @@
     "graceful-fs": "^3.0.5",
     "mkdirp": "^0.5.0",
     "rsvp": "^3.0.16",
-    "systemjs-builder": "^0.7.2",
+    "systemjs-builder": "^0.8.2",
     "lodash": "^3.1.0"
   },
   "devDependencies": {
