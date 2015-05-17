@@ -4,7 +4,7 @@ SystemJS AssetGraph
 An AssetGraph transform plugin to automatically detect and optimize the use of SystemJS in HTML files.
 
 It works out the main entry point and configuration file for the HTML asset, and then generates the [SystemJS bundle](https://github.com/systemjs/builder),
-or [injects the depcache if using HTTP/2 for optimization](#http-2-optimization).
+or [injects the depcache if using HTTP/2 for optimization](#http2-optimization).
 
 ### Installation
 
