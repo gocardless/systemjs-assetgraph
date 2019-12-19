@@ -14,7 +14,7 @@
     "mkdirp": "^0.5.0",
     "rsvp": "^3.0.16",
     "systemjs-builder": "^0.7.1",
-    "lodash": "^3.0.1"
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "assetgraph": "^1.15.4"
